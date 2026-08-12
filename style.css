@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#tela {
+    height: 170px;
+    color: white;
+    background-color: #16223f54;  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0F172B;
+}
+
+#border-dad {
+    border: 1rem solid #16223f54;
+    border-radius: 0.6rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    height: 80px;
+    border: 1px solid;
+    font-size: 3rem;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    background-color: #314158;
+}
+
+.buttonCSi {
+    background-color: #45556C;
+    
+}
+
+.buttonBSi {
+    background-color: #FFB900;
+    
+}
+
+.buttonNu {
+    background-color: #314158;
+}
+
+.button-mair {
+    width: 200px;
+}
