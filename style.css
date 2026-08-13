@@ -4,11 +4,31 @@
   box-sizing: border-box;
 }
 
+/*TOPO / TELA*/
+
 #tela {
     height: 170px;
     color: white;
-    background-color: #16223f54;  
+    background-color: #0F172B;  
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
 }
+
+#conta {
+    color: #afabab;
+    min-height: 24px;
+    font-size: 18px;
+    margin-top: 6rem; 
+}
+
+#resu {
+    font-size: 38px;
+    min-height: 45px;
+    margin-top: auto; 
+ 
+}
+/* CALCULADORA */
 
 body {
   font-family: Arial, sans-serif;
@@ -16,11 +36,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0F172B;
+  background-color: #2c2c2c9a;
 }
 
 #border-dad {
-    border: 1rem solid #16223f54;
+    border: 1rem solid #0F172B;
     border-radius: 0.6rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -50,6 +70,7 @@ button {
     background-color: #314158;
 }
 
-.button-mair {
-    width: 200px;
+.bdif {
+   grid-column: span 2;
 }
+
