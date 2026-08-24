@@ -49,6 +49,7 @@ button {
     height: 80px;
     border: 1px solid;
     font-size: 3rem;
+    transition-duration: 70ms;
 }
 .botoes {
     display: grid;
@@ -73,4 +74,6 @@ button {
 .bdif {
    grid-column: span 2;
 }
-
+.buH:hover{
+ border: 2px solid #dfdfdf44;
+}
