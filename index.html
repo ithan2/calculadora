@@ -13,12 +13,12 @@
 <body>
     <div id="border-dad">
         <div id="tela">
-            <span id="conta"></span>
+            <span id="previa"></span>
             <p id="resu"></p>
         </div>
         <div class="botoes">
             <button class="buH buttonCSi" onclick="clean()">C</button>
-            <button class="buH buttonCSi" onclick="insert('')">+/-</button>
+            <button class="buH buttonCSi" onclick="back('')"><</button>
             <button class="buH buttonCSi" onclick="insert('%')">%</button>
             <button class="buH buttonBSi" onclick="insert(':')">:</button>
             <button class="buH buttonNu" onclick="insert('7')">7</button>
@@ -35,7 +35,7 @@
             <button class="buH buttonBSi" onclick="insert('+')">+</button>
             <button class="buH buttonNu bdif" onclick="insert('0')">0</button>
             <button class="buH buttonNu" onclick="insert('.')">.</button>
-            <button class="buH buttonBSi" onclick="insert('=')">=</button>
+            <button class="buH buttonBSi" onclick="calcular('=')">=</button>
         </div>
     </div>
 </body>
